@@ -43,7 +43,6 @@ li {
 /*--HEADER--*/
 .menu-item:not(:last-child) {
     margin-right: 50px;
-
 }
 .menu-li {
     display: flex;
@@ -53,14 +52,11 @@ li {
     margin-right: 71px;
 }
 .page-header {
-    padding-top: 25px;
-    border-width: 0 0 1rem 0;
-    border: #ececec;
+     border-bottom: #ECECEC 1px solid;
 }
+
 .page-header-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 .logotipe {
     font-family: 'Raleway';
@@ -111,13 +107,7 @@ color: var(--mail-color);
 .contact {
     display: flex;
     margin-right: 50px;
-    padding: 32px;
-}
-
-.contact {
-    display: flex;
-    margin-right: 50px;
-    padding: 32px;
+    padding: 24px;
 }
 .contact-maill { 
     font-family: 'Roboto',sans-serif;
@@ -137,9 +127,10 @@ color: var(--mail-color);
    padding-bottom: 94px;
    margin-left: 215px;
    gap: 30px;
-   flex-basis: calc((100% - 60px)/3);
    background: #FFFFFF;
-   border: 1px solid #EEEEEE;
+}
+.porfolio-page {
+    padding: 94px;
 }
 
 .menu-but {
@@ -163,6 +154,11 @@ color: var(--mail-color);
     letter-spacing: 0.03em;
     
     color: var(--text-color);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    line-height: 30px;
    
 }
 .but:hover,
@@ -201,16 +197,6 @@ color: var(--mail-color);
     background: #2F303A;
 }
 
-.container {
-    margin-left: 215px;
-    margin-bottom: 9px;
-}
-.containers {
-    margin-top: 60px;
-    margin-bottom: 20px;
-    margin-left: 215px;
-}
-
 
 .logotipe {
     font-family: 'Raleway';
@@ -244,6 +230,9 @@ line-height: 1.71px;
 
 letter-spacing: 0.03em;
 
-color: rgba(255, 255, 255, 0.6);
+color:#FFFFFF;
+}
+.rif2 {
+    margin-bottom: 9px;
 }
 /*=================FOOTER====================*/
