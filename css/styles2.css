@@ -6,6 +6,7 @@ ol {
 a {
     text-decoration: none;
 }
+
 .container {
     width: 1200px;
     margin-left: auto;
@@ -41,65 +42,19 @@ li {
 }
 
 /*--HEADER--*/
-.menu-item:not(:last-child) {
-    margin-right: 50px;
-}
-.menu-li {
-    display: flex;
-    align-items: center;
-}
-.log {
-    margin-right: 71px;
-}
+
 .page-header {
-     border-bottom: #ECECEC 1px solid;
+    border-bottom: #ECECEC 1px solid;
+     padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .page-header-container {
     display: flex;
-}
-.logotipe {
-    font-family: 'Raleway';
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-/* identical to box height */
-
-letter-spacing: 0.03em;
-
-color: #2196F3;
+    align-items: center;
+    justify-content: space-between;
 }
 
-
-.logotip {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19px; 
-    letter-spacing: 0.03em;
-    color: #010101;
-}
-.menu-li {
-    font-family: 'Roboto',sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-
-color: var(--text-color);
-}
-.menu-li:hover,
-.menu-li:focus {
-    color: var(--knob-color);
-}
-.contact-phoun-number {
-    font-family: 'Roboto',sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--mail-color);
-}
 .page-nav {
     display: flex;
     align-items: center;
@@ -107,14 +62,85 @@ color: var(--mail-color);
 .contact {
     display: flex;
     margin-right: 50px;
-    padding: 24px;
 }
-.contact-maill { 
-    font-family: 'Roboto',sans-serif;
+
+.menu-li {
+    display: flex;
+    align-items: center;
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color) 
+}
+.log {
+    margin-right: 71px;
+}
+
+.logotipe {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2; 
+    letter-spacing: 0.03em;
+    color:var(--knob-color)
+}
+
+.logotip {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2; 
+    letter-spacing: 0.03em;
+    
+    color: #010101;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 50px;
+
+}
+
+
+.menu-li {
+    font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+margin-left: auto;
+
+color:var(--text-color);
+}
+.menu-li:hover,
+.menu-li:focus {
+    color: var(--knob-color);
+}
+.contact-phoun-number {
+    font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+margin-left: auto;
+color:var(--mail-color);
+
+}
+ .menu-link-list {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.14px;
     letter-spacing: 0.02em;
+    color: #0c0e10;
+}
+
+.contact-maill { 
+    font-family: 'Roboto', sans-serif ;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+    
     color: var(--knob-color);
 }
 /*--/======================HEADER--*/
@@ -123,14 +149,19 @@ color: var(--mail-color);
 .photo-top {
    display: flex;
    flex-wrap: wrap;
-   padding-top: 50px;
-   padding-bottom: 94px;
-   margin-left: 215px;
+   margin-top: 50px;
    gap: 30px;
    background: #FFFFFF;
 }
-.porfolio-page {
-    padding: 94px;
+.section-project{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.foto-div {
+    padding: 20px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
 
 .menu-but {
@@ -175,6 +206,7 @@ color: var(--mail-color);
     
     letter-spacing: 0.06em;
     color: var(--text-color);
+    padding-bottom: 4px;
 }
 .proek {
     font-family: 'Roboto',sans-serif;
@@ -221,6 +253,22 @@ color: var(--knob-color);
     
     color: #eff7fd;
 }
+
+.rif21 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+
+}
+
 .rif {
     font-family: 'Roboto',sans-serif;
 font-weight: 400;
@@ -230,7 +278,12 @@ line-height: 1.71px;
 
 letter-spacing: 0.03em;
 
-color:#FFFFFF;
+color:rgba(255, 255, 255, 0.6);
+;
+}
+
+.rif11 {
+    margin-bottom: 9px;
 }
 .rif2 {
     margin-bottom: 9px;

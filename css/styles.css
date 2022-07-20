@@ -68,7 +68,6 @@ img {
 .contact {
     display: flex;
     margin-right: 50px;
-    padding: 32px;
 }
 
 .menu-li {
@@ -375,6 +374,18 @@ color: var(--text-color);
     color:rgb(255, 255, 246);
 }
 
+.cl1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+}
+
 .cl {
     font-family: 'Roboto', sans-serif;
 font-weight: 400;
@@ -382,11 +393,12 @@ font-size: 14px;
 line-height: 1.71px;
 
 letter-spacing: 0.03em;
-
-color: #FFFFFF;
+color: rgba(255, 255, 255, 0.6);
 
 }
-
+.cl21 {
+    margin-bottom: 9px;
+}
 .cl2{
     margin-bottom: 9px;
 }
